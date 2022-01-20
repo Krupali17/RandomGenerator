@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RandomGenerator_Example' do
+  pod 'RandomGenerator', :path => '../'
+
+  target 'RandomGenerator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
