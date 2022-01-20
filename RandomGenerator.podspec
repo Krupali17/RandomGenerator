@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RandomGenerator'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'This pod is used for genrate random string/integer.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Krupali17/RandomGenerator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.swift_version = "4.0"
+  s.swift_version = "5.0"
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'RandomGenerator/Classes/**/*'
